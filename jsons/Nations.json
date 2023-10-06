@@ -3,12 +3,12 @@
 		"name": "Italy",
 		"leaderName": "Italian Senate",
 		"adjective": ["Italian"],
-		"startBias": ["Snow"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
 		"declaringWar": "For the good of italy, you must be destroyed.",
 		"attacked": "Italy will prevail.",
 		"defeated": "Our nation may be gone but our spirit will live forever!",
@@ -28,8 +28,14 @@
 		"tradeRequest": "A fine offer from italy!.",
 
 		"outerColor": [235, 64, 52],
-		"innerColor": [24, 158, 33],
-		"unique": "SPIRIT_OF_LORENZO",
-		"cities": ["Roma","Firenze","Venesia","Naples","Padua","Lucca", "Genoa", "Palermo"]
-	}
+		"innerColor": [0, 10, 3],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Spirit of Lorenzo",
+		"uniques": ["Gain [30] [Culture] <upon constructing [Gold]>", "Gain [40] [Culture] <upon constructing [Gold]> <upon entering the [Renaissance era]>", "Gain [50] [Culture] <upon constructing [Gold]> <upon entering the [Industrial era]>"],
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+    },
 ]
